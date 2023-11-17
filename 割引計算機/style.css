@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #000000;
+}
+
+div {
+    margin: 0.5cm;
+}
+
+html {
+    background-color: #faebd7;
+}
+
+.title {
+    cursor: pointer;
+    font-size: 3rem;
+    font-weight: 450;
+}
+
+body {
+    color:black;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: black;
+    border-bottom: 2px solid #000000;
+    width: 98%;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ホーム</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <nav class="navbar">
+        <h2 class="logo">HOME</h2>
+        <ul class="menu">
+          <li><a href="../割引計算機/index.html">割引計算機</a></li>
+          <li><a href="../重さ計算機/index.html">重さ計算機</a></li>
+          <li><a href="../神経衰弱/index.html">神経衰弱</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="text-area">
+      <p class="text">
+      </p>
+      <p class="text">
+      </p>
+      <p class="text">
+      </p>
+      <p class="text">
+      </p>
+      <p class="text">
+      </p>
+      <p class="text">
+      </p>
+      <p class="text">
+      </p>
+    </div>
+    <script>
+      const menu = document.querySelector(".menu");
+      const navbar = document.querySelector(".navbar");
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset >= menu.offsetTop) {
+          //stickyクラスをnavbarに付与する。
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      });
+    </script>
+  </body>
+</html>
